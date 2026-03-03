@@ -1,0 +1,11 @@
+# Игнорирование __руcache__/, *.рус, .env .
+_pycache__/
+*.рус
+.env
+# Игнорирование всеx log-файлов, кроме docs/release_notes.log . 
+*.log
+!docs/release_notes.log
+#Игнорирование в папке docs, кроме docs/ТЗ_v1.md
+docs/*
+!docs/T3_v1.md
+!docs/release_notes.log 
